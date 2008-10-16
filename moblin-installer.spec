@@ -31,5 +31,5 @@ rm -fr $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root,-)
 %{_datadir}//moblin-installer/wallpapers/*
-%{_libdir}/moblin-installer/*
+/usr/lib/moblin-installer/*
 
