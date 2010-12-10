@@ -1,7 +1,7 @@
 Summary: Mobln Installer
 Name: moblin-installer
 Version: 0.01
-Release: %mkrel 6.1.2
+Release: %mkrel 6.1.3
 License: GPLv2
 Group: System/Configuration/Other
 Source: %{name}-%{version}.tar.bz2
