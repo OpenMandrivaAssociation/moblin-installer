@@ -33,3 +33,31 @@ rm -fr $RPM_BUILD_ROOT
 %{_datadir}//moblin-installer/wallpapers/*
 /usr/lib/moblin-installer/*
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0.01-6.1.3mdv2011.0
++ Revision: 620379
+- the mass rebuild of 2010.0 packages
+
+* Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 0.01-6.1.2mdv2010.0
++ Revision: 440050
+- rebuild
+
+* Thu Oct 16 2008 Thierry Vignaud <tv@mandriva.org> 0.01-6.1.1mdv2009.1
++ Revision: 294267
+- fix path on x86_64
+- import moblin-installer
+
+
+* Thu Oct 16 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.01-6.1mdv2009.1
+- adapt for Mandriva
+
+* Sat Sep 27 2008 Anas Nashif <anas.nashif@intel.com> 0.01
+- fixed grubby call
+* Sat Sep 27 2008 Anas Nashif <anas.nashif@intel.com> 0.01
+- fixed grubby, ask for confirmation
+* Sat Sep 27 2008 Anas Nashif <anas.nashif@intel.com> 0.01
+- Fix bootloader configuration
+* Sat Sep 27 2008 Anas Nashif <anas.nashif@intel.com> 0.01
+- initial import
